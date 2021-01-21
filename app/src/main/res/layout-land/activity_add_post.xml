@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="16dp"
+    tools:context=".posts.AddPostActivity"
+    style="@style/Theme.UserDialog">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pTitleEt"
+                android:padding="10dp"
+                android:hint="Title Of Post.."
+                android:singleLine="true"
+                android:background="@drawable/editextstyle"/>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:id="@+id/pImageIv"
+                android:background="@color/purple_500"
+                android:scaleType="centerCrop"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pDescriptionEt"
+                android:padding="10dp"
+                android:hint="Description Of Post.."
+                android:inputType="textCapSentences|textMultiLine"
+                android:singleLine="true"
+                android:gravity="start"
+                android:background="@drawable/editextstyle"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/pUploadBtn"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="@color/purple_500"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:layout_gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

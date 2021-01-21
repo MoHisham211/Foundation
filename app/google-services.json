@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "758579749885",
+    "firebase_url": "https://foundation-9a98b.firebaseio.com",
+    "project_id": "foundation-9a98b",
+    "storage_bucket": "foundation-9a98b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758579749885:android:a681f1fd86555b91f3ef94",
+        "android_client_info": {
+          "package_name": "mo.zain.foundation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758579749885-i2uj5esajo0p81n635qug3feo1qgfds7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2PrE73xEUJ7rYyS80FjJLknwgM9rsXpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758579749885-i2uj5esajo0p81n635qug3feo1qgfds7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
